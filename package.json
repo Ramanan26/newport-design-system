@@ -81,6 +81,7 @@
   "scripts": {
     "build": "gulp build -v",
     "build-prod": "gulp build",
+    "generate-dist": "npm run build && npm run dist",
     "build-storybook": "build-storybook -c .storybook -s . -o .out",
     "dist": "node scripts/dist.js",
     "gulp": "gulp",
